@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script src="js/jquery-2.1.0.min.js">
+    </script>
+</head>
+<body>
+<p class="result"></p>
+       <script>
+    
+    $.ajax({
+           url:"bookinfo.xml",
+           cache:false,
+           dataType:"xml",
+           success:function(xmlData){               
+               $(xmlData).find('Book').each(function(){
+                   
+                        var nam=$(this).find('name').text();
+                        var auth=$(this).find('author').text();
+                        $(".result").append(nam+' '+auth);
+                
+               });
+           }
+                
+        
+    });
+        
+    </script>
+</body>
+</html>

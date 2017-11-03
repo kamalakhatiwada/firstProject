@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Books>
+  <Book>
+      <name>Webtechnology</name>
+      <author>James Williamson</author>
+  </Book>
+   <Book>
+      <name>microprocessor</name>
+      <author>Om Prakash Dhakal</author>
+  </Book>
+   <Book>
+      <name>Java</name>
+      <author>Dayasagar Baral</author>
+  </Book>
+   <Book>
+      <name>Essential Mathematics</name>
+      <author>Rajuram Thapa</author>
+  </Book>
+   <Book>
+      <name>Discrete Mathematics</name>
+      <author>Sabin Kafle</author>
+  </Book>
+   <Book>
+      <name>Numerical Method</name>
+      <author>Chanmaya</author>
+  </Book>
+</Books>
